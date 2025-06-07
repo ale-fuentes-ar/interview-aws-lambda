@@ -5,9 +5,7 @@
 ᵇʸ ᴬˡᵉᶠᵘᵉⁿᵗᵉˢ
 ```
 # INTEVIEW | AWS Lambda
-<img src="https://img.shields.io/badge/AWS-ff9900?style=for-the-badge" alt="spring" />
-<img src="https://img.shields.io/badge/Lambda-ff9900?style=for-the-badge&logoColor=white" alt="spring security" />
-<img src="https://img.shields.io/badge/☕︎_hands_on-CDCDCD?style=for-the-badge&logoColor=white&color=cdcdcd" title="ale fuentes cloud" />
+<img src="https://img.shields.io/badge/AWS-ff9900?style=for-the-badge" alt="spring" /> <img src="https://img.shields.io/badge/Lambda-ff9900?style=for-the-badge&logoColor=white" alt="spring security" /> <img src="https://img.shields.io/badge/☕︎_hands_on-CDCDCD?style=for-the-badge&logoColor=white&color=cdcdcd" title="ale fuentes cloud" />
 
 ## AWS Console and IAM 
 The AWS console is a web interface for managing AWS services.
@@ -30,4 +28,17 @@ Next create the IAM Role
  > 🚨 important, never use root credentials for daily development. Always use IAM users/roles. Need use *principe of least privilege*.
 
 ### Step 2 | Serverless and AWS Services
+
+1- initialize our project
+```bash
+# initialize our package.json
+npm init -y
+```
+
+2- install dependencies necessary
+
+```bash
+npm install @aws-sdk/client-lambda @aws-sdk/client-dynamodb @aws-sdk/lib-dynamodb
+```
+> ☕︎ Serveless compute service can run code in response events. Focus on `handle` function, `event` object, `context` object, and basic return structure.
 
