@@ -4,7 +4,7 @@
 ━∪∪━━━━ 
 ᵇʸ ᴬˡᵉᶠᵘᵉⁿᵗᵉˢ
 ```
-# INTEVIEW | AWS Lambda
+# INTERVIEW | AWS Lambda
 <img src="https://img.shields.io/badge/AWS-ff9900?style=for-the-badge" alt="spring" /> <img src="https://img.shields.io/badge/Lambda-ff9900?style=for-the-badge&logoColor=white" alt="spring security" /> <img src="https://img.shields.io/badge/☕︎_hands_on-CDCDCD?style=for-the-badge&logoColor=white&color=cdcdcd" title="ale fuentes cloud" />
 
 ## AWS Console and IAM 
@@ -40,5 +40,5 @@ npm init -y
 ```bash
 npm install @aws-sdk/client-lambda @aws-sdk/client-dynamodb @aws-sdk/lib-dynamodb
 ```
-> ☕︎ Serveless compute service can run code in response events. Focus on `handle` function, `event` object, `context` object, and basic return structure.
+> ☕︎ Serverless compute service can run code in response events. Focus on `handle` function, `event` object, `context` object, and basic return structure.
 
